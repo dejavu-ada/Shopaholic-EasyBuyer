@@ -93,7 +93,6 @@ The evaluation covers Level 1 functional behavior and Level 2 recommendation qua
 | Ranking quality | 4.27/5 average across 30 queries | All 30 ranking scores are recorded. Distribution: 18 rated 5, 5 rated 4, 5 rated 3, 1 rated 2, and 1 rated 1. |
 | Response time | 13,006 ms median; 13,712 ms average | Calculated from 30 `response_time_ms` values in `evals/evaluation_runs.jsonl`. |
 | Estimated OpenRouter cost | US$0.012108 total; US$0.000404 per request; about US$0.000088 per recommendation | Calculated from the 30 saved cost estimates and 137 returned recommendations. This estimate excludes BuyWhere, currency conversion, and product-page checks. |
-|                              |                                                              |                                                              |
 
 ## Data and evaluation files
 
