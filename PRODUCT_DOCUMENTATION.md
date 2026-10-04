@@ -69,7 +69,7 @@ For cross-currency budget checks, the app calls an exchange-rate service. It als
 
 ## Metrics targeted
 
-The evaluation covers Level 1 functional behavior and Level 2 recommendation quality. Level 2 uses tester assessments of EasyBuyer’s returned results: Accept/Reject, product relevance, budget compliance, product-link validity, and ranking quality. The current records do not compare EasyBuyer against a blinded manual-search baseline. Completed purchases and conversion are out of scope.
+The evaluation covers Level 1 functional behavior and Level 2 recommendation quality. Level 2 combines tester Accept/Reject and quality ratings with a blinded preference comparison between EasyBuyer and manual marketplace search. The retained response sheet maps A to EasyBuyer and B to manual search. Completed purchases and conversion are out of scope.
 | Metric | Target and unit |
 |---|---|
 | Request parsing | Query-level correctness for product type, budget, and currency. |
@@ -87,9 +87,10 @@ The evaluation covers Level 1 functional behavior and Level 2 recommendation qua
 |---|---:|---|
 | Level 1 functional pass rate | 28/30 = 93.3% (reported) | This is the project team's reported result. The retained runtime log independently records 30/30 successful API responses from `live_api`. |
 | Level 2 query acceptance | 28/30 = 93.3% | Six testers assessed five assigned queries each. The two rejected cases were the umbrella query, whose first result was a CD, and the running-shoes query, whose links led to store pages instead of specific product pages. See `evals/tester_assignments.csv`. |
+| Blind comparison preference | 23/30 = 76.7% chose EasyBuyer; 7/30 chose manual marketplace search | A = EasyBuyer and B = manual marketplace search. The preference column is recorded for all 30 cases; the paired manual result lists and per-case randomized label record are not retained in this folder. |
 | Product relevance | 136/137 = 99.3% | Product-level counts entered in `tester_assignments.csv`. |
 | Specific product links | 134/137 = 97.8% | Product-link counts recorded in `tester_assignments.csv`; the three running-shoes links were reported as non-specific. |
-| Budget compliance | Not reportable | One query included a 300 SGD budget, but the assignment sheet currently records budget checks as `N/A`; the other 29 queries did not specify a budget. |
+| Budget compliance | 4/4 products complied for the one budgeted query | The `knife under 300sgd` row records 4/4 compliant; the other 29 queries did not specify a budget, so the result is limited to one query. |
 | Ranking quality | 4.27/5 average across 30 queries | All 30 ranking scores are recorded. Distribution: 18 rated 5, 5 rated 4, 5 rated 3, 1 rated 2, and 1 rated 1. |
 | Response time | 13,006 ms median; 13,712 ms average | Calculated from 30 `response_time_ms` values in `evals/evaluation_runs.jsonl`. |
 | Estimated OpenRouter cost | US$0.012108 total; US$0.000404 per request; about US$0.000088 per recommendation | Calculated from the 30 saved cost estimates and 137 returned recommendations. This estimate excludes BuyWhere, currency conversion, and product-page checks. |

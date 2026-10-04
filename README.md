@@ -117,8 +117,8 @@ Report backend response time and estimated OpenRouter cost per returned recommen
 - [`docs/PRODUCT_DOCUMENTATION.md`](docs/PRODUCT_DOCUMENTATION.md) describes the target persona, input/output, architecture, and targeted versus reached metrics.
 - [`data/products_snapshot.csv`](data/products_snapshot.csv) is the fallback product snapshot. [`data/README.md`](data/README.md) describes its contents, product sources, and refresh behavior.
 - [`evals/README.md`](evals/README.md) explains the evaluation protocol, metric definitions, and what evidence is currently available.
-- [`evals/evaluation_log_template.csv`](evals/evaluation_log_template.csv) is one combined blank log for queries, blinded outputs, tester ratings, and cost. It is a template, not completed evaluation results.
-- `evals/evaluation_runs.jsonl` is created only when `EVALUATION_LOG_ENABLED=1`; it appends recommendation outputs and runtime metrics for evaluation sessions.
+- [`evals/tester_assignments.csv`](evals/tester_assignments.csv) contains the 30 Level 2 tester assessments and blind-comparison preferences. A maps to EasyBuyer and B maps to manual marketplace search. The manual comparison lists and per-case randomization key are not included in the retained files.
+- `evals/evaluation_runs.jsonl` contains the 30 saved recommendation runs and runtime metrics. New evaluation sessions append records when `EVALUATION_LOG_ENABLED=1`.
 
 The product snapshot and evaluation evidence should be kept with the project so another reviewer can inspect what data and test cases produced the reported results. Do not present the interaction feedback log as a benchmark or as blind evaluation.
 
