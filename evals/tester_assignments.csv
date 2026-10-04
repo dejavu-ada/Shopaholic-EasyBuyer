@@ -1,0 +1,138 @@
+﻿tester_id,tester_major,tester_name,case_id,query,recommendations_to_rate,decision_accept_or_reject,rejection_reason,relevant_products_count,products_rated,budget_compliant_count,budget_assessed_count,valid_product_links_count,product_links_checked,ranking_quality_1_to_5,response_time_ms,openrouter_cost_usd,additional_notes
+T01,finance,Yuki,EVAL-01,knife under 300sgd,"1. Kitchen-Knife — USD 10.0 — https://www.kidkraft.com/products/p-u-789a-gd
+2. Kitchen-Knife — USD 10.0 — https://www.kidkraft.com/products/p-u-7837-5493
+3. HOSHANHO 6 Piece Kitchen Knife Set — SGD 162.28 — https://www.amazon.sg/dp/B0C6X91FCZ?tag=buywhere-22&linkCode=ll
+4. Piece Knife Set — USD 199.0 — https://dalstrong.com/products/2-piece-knife-set-slicing-knife-boning-knife-gladiator-series-elite-nsf-certified-dalstrong",Accept,,4,4,N/A,N/A,4,4,5,26307.82,0.00040075,User confirmed this result met the requirements.
+T01,finance,Yuki,EVAL-02,floral dress,"1. Chic Strapless Cowl Back Floral Dress — USD 203.0 — https://dressbetty.com/products/a1-chic-strapless-cowl-back-floral-dress
+2. Ruched Low-Neck Floral Dress — USD 223.0 — https://dressbetty.com/products/a1-ruched-low-neck-floral-dress
+3. Slash Neck Ruffle Spliced Floral Dress — USD 228.0 — https://dressbetty.com/products/a1-slash-neck-ruffle-spliced-floral-dress
+4. Elegant Ruffle Floral Dress — USD 435.0 — https://dressbetty.com/products/a1-elegant-ruffle-floral-dress",Accept,,4,4,N/A,N/A,4,4,4,9512.17,0.00039975,User confirmed this result met the requirements.
+T01,finance,Yuki,EVAL-03,chocolate,"1. UNREAL Gluten Free Chocolate Snacks — USD 6.49 — https://netrition.com/products/unreal-gluten-free-chocolate-snacks
+2. Catalina Crunch Dark Chocolate Cookie Bar — USD 9.49 — https://netrition.com/products/catalina-crunch-dark-chocolate-cookie-bar
+3. Dog Chocolate - Snack fans (LP) — USD 23.99 — https://www.velvetmusic.nl/products/dog-chocolate-snack-fans-lp-1",Accept,,3,3,N/A,N/A,3,3,5,16429.01,0.0003995,User confirmed this result met the requirements.
+T01,finance,Yuki,EVAL-04,cocktail,"1. Uptown Cocktails Strawberry Margarita — USD 5.99 — https://craftshack.com/products/uptown-cocktails-strawberry-margarita
+2. Uptown Cocktails Mango Margarita — USD 5.99 — https://craftshack.com/products/uptown-cocktails-mango-margarita
+3. Uptown Cocktails Lime Margarita — USD 5.99 — https://craftshack.com/products/uptown-cocktails-lime-margarita
+4. Cantadrink Cantarito Ready-To-Drink Cocktail 375mL — USD 6.99 — https://www.thebarreltap.com/products/cantadrink-cantarito
+5. Uptown Cocktails Piña Colada — USD 8.99 — https://craftshack.com/products/uptown-cocktails-pina-colada",Accept,,5,5,N/A,N/A,5,5,5,19886,0.0003995,User confirmed this result met the requirements.
+T01,finance,Yuki,EVAL-05,sandwich cookie,"1. OREO Double Stuf Zero Sugar Chocolate Sandwich Cookies — USD 8.49 — https://netrition.com/products/oreo-double-stuf-zero-sugar-chocolate-sandwich-cookies-10-3-oz
+2. ChocZero Dunkies Sandwich Cookies, 9 oz — USD 9.99 — https://netrition.com/products/choczero-dunkies-sandwich-cookies-9-oz",Accept,,2,2,N/A,N/A,2,2,5,13699.23,0.00039975,User confirmed this result met the requirements.
+T02,maths,Guoshuhan,EVAL-06,umbrella,"1. The Umbrellas - The Umbrellas (CD) — USD 13.99 — https://www.velvetmusic.nl/products/the-umbrellas-the-umbrellas-cd
+2. Custom Gemini Umbrella – — USD 299.0 — https://crown-outdoor.com/products/custom-gemini-umbrella-uhcc54-uscc45-uscc54
+3. Elegant Zebra Print Umbrella Vacation Skirt — USD 431.0 — https://dressbetty.com/products/elegant-zebra-print-umbrella-vacation-skirts
+4. Center Pole Umbrella (push up and down system) — USD 2225.0 — https://www.ebarza.com/products/center-pole-umbrella-push-up-and-down-system-ms-1623-5a
+5. Celestial Center Pole Umbrella With Crank with — USD 2735.0 — https://www.ebarza.com/products/celestial-center-pole-umbrella-with-crank-dc-lup-206",Reject,"The first recommendation was a CD titled “The Umbrellas”, not an umbrella product.",4,5,N/A,N/A,5,5,1,12641.89,0.0003995,User-reported Level 2 feedback; other recommendations treated as acceptable per user.
+T02,maths,Guoshuhan,EVAL-07,measuring tape,"1. mt ex Washi Tape - Sewing Measures — USD 2.75 — https://www.thejournalshop.com/products/mt-ex-washi-tape-ex-sewing-measures
+2. Xpert Tape Measure — USD 4.18 — https://www.trulypvc.com/products/xpert-tape-measure
+3. Craftreat Fiberglass Measuring Tape - centimeter — USD 5.99 — https://craftreat.com/products/craftreat-fiberglass-measuring-tape-centimeter-to-inches-blue-color-measuring-tape1-pcs-cttmblue
+4. Craftreat Fiberglass Measuring Tape — USD 5.99 — https://craftreat.com/products/craftreat-fiberglass-measuring-tape-for-sewing-a-pack-of-orange-measuring-tape-1-pcs-cttmoran
+5. Stanley 30-611L Rubbergrip Tape Rule 3.5m x 1/2 — SGD 6.3 — https://www.selffix.com/stanley-30-611l-rubbergrip-tape-rule-3-5m-x-1-2-inch/",Accept,,5,5,N/A,N/A,5,5,5,10482.47,0.00039975,User confirmed this result met the requirements.
+T02,maths,Guoshuhan,EVAL-08,Frying pan,"1. Danny Home Cast Iron Skillet Fry Pan — PKR 18.5 — https://www.shopperspk.com/product/danny-home-cast-iron-skillet-fry-pan/
+2. Non Stick Fry Pan — USD 35.0 — https://ansargallery.com/non-stick-fry-pan-qatar-3552000025486.html
+3. Smartle Triply Fry Pan Colour Handle — USD 699.0 — https://www.starquik.com/products/smartle-triply-fry-pan-colour-handle-20-cm-1-pc-sc-sm55
+4. Smartle Triply Fry Pan Colour Handle — USD 799.0 — https://www.starquik.com/products/smartle-triply-fry-pan-colour-handle-24-cm-1-pc-sc-sm55
+5. Smartle Triply Honeycomb Fry Pan — USD 900.0 — https://www.starquik.com/products/smartle-triply-honeycomb-fry-pan-24-cm-1-pc-sc-sm55",Accept,,5,5,N/A,N/A,5,5,5,12597.02,0.0004,User confirmed this result met the requirements.
+T02,maths,Guoshuhan,EVAL-09,Desk lamp,"1. Giryuhd LED Desk Lamp — SGD 18.77 — https://www.amazon.sg/dp/B0CQ3ZGKP3?tag=buywhere-22&linkCode=ll
+2. Newest 2024 Half Moon Light Desk Lamp — USD 155.0 — https://dynamicnailsupply.com/products/newest-2024-half-moon-light-desk-lamp-for-nail-lash-high-brightness-for-professionals
+3. Dual Desk Lamp Body - Antique Brass — USD 192.0 — https://www.corston.com/products/dual-desk-lamp-body-antique-brass
+4. GeRRiT LED Desk Lamp Eye Protection Desk Lamp Anti-blue Light Strobe-free — SGD 194.87 — https://www.amazon.sg/dp/B0CXPFDPFF?tag=buywhere-22&linkCode=ll
+5. Newest 2024 Half Moon Light Desk Lamp — USD 479.0 — https://dynamicnailsupply.com/products/newest-2024-half-moon-light-desk-lamp-for-nail-lash-high-brightness-for-professionals",Accept,,5,5,N/A,N/A,5,5,3,14227.82,0.00039975,User confirmed this result met the requirements.
+T02,maths,Guoshuhan,EVAL-10,Trash bag,"1. 【Rubbish Bag】Garbage Bag Waste Bag Trash Bag — SGD 3.49 — https://shopee.sg/%E3%80%90Rubbish-Bag%E3%80%91Garbage-Bag-Waste-Bag-Trash-Bag-Kitchen-Bag-120-PCS-Pack-6-Roll-Thicken-No-Leaking-SG-Local-Stock-i.4498522.4072728086?ref=buywhere
+2. 4 Gallon Trash Bags Garbage Bags Strong Small Trash Bags Scented — SGD 11.0 — https://www.amazon.sg/dp/B0DNBGMS78?tag=buywhere-22&linkCode=ll
+3. Count Trash Bags — SGD 15.99 — https://www.amazon.sg/dp/B0DL4K36YC?tag=buywhere-22&linkCode=ll
+4. 0.5 Gallon 250 pcs Mini Clear Trash Bags — SGD 21.64 — https://www.amazon.sg/dp/B0FJRXJZB8?tag=buywhere-22&linkCode=ll
+5. Gallon Compostable Trash Bags — SGD 24.52 — https://www.amazon.sg/dp/B0834V85CJ?tag=buywhere-22&linkCode=ll",Accept,,5,5,N/A,N/A,5,5,3,13704.21,0.00039975,User confirmed this result met the requirements.
+T03,computer science,Zhangshiyue,EVAL-11,Toothpaste,"1. NOW XyliWhite Toothpaste Gel — USD 4.99 — https://netrition.com/products/now-toothpaste-page
+2. NOW XyliWhite Toothpaste Gel with Baking Soda 6.4 — USD 5.19 — https://netrition.com/products/now-xyliwhite-baking-soda
+3. NOW XyliWhite Neem & Tea Tree Toothpaste Gel 6.4 — USD 5.19 — https://netrition.com/products/now-xyliwhite-neem-ttree-gel
+4. NOW XyliWhite Charcoal Refresh Toothpaste Gel 6.4 — USD 5.29 — https://netrition.com/products/now-xyliwhite-charcoal-refresh-toothpaste-gel
+5. Chicco Toothpaste Fruit Mix 1-5y Fluorine — USD 9.2 — https://healthboutiquejo.com/products/chicco-toothpaste-fruit-mix-1-5y-fluorine",Accept,,5,5,N/A,N/A,5,5,5,10031.7,0.00039975,User confirmed this result met the requirements.
+T03,computer science,Zhangshiyue,EVAL-12,toothbrush,"1. Chicco Teeth toothbrush — USD 7.8 — https://healthboutiquejo.com/products/chicco-teeth-toothbrush
+2. Chicco Electric Toothbrush Heads 2 Pcs — USD 9.4 — https://healthboutiquejo.com/products/chicco-electric-toothbrush-heads-2-pcs
+3. Skye Sensitive Soft Toothbrush pack of 4 — USD 56.0 — https://www.starquik.com/products/skye-sensitive-soft-toothbrush-pack-of-4-sc-sm78
+4. Colgate Kids Spiderman Toothbrush 1 pc — USD 58.0 — https://www.starquik.com/products/colgate-kids-spiderman-toothbrush-1-pc-sc-sm78
+5. Sensodyne Soft Toothbrush 1 pc — USD 60.0 — https://www.starquik.com/products/sensodyne-soft-toothbrush-1-pc-sc-sm78",Accept,,5,5,N/A,N/A,5,5,2,10135.23,0.0005155,User confirmed this result met the requirements.
+T03,computer science,Zhangshiyue,EVAL-13,mattress,"1. INTEX Hammock Mattress Ultimate Summer Relaxation — PKR 40.5 — https://www.shopperspk.com/product/intex-hammock-mattress-ultimate-summer-relaxation-float-with-leg-support-68-x-35-inch-58725/
+2. Compact Crib Mattress — USD 129.99 — https://constructiveplaythings.com/products/compact-crib-mattress
+3. Inspired Overland Hybrid Air Mattress — USD 179.0 — https://www.4runnerlifestyle.com/products/inspired-overland-hybrid-air-mattress
+4. 70*132*11cm Nap Nest Kids Size Mattress - F2504104 — USD 285.0 — https://www.ebarza.com/products/70-132-11cm-kids-size-mattress-f2504104
+5. 70*132*11cm Soft Nest Kids Size Mattress - — USD 285.0 — https://www.ebarza.com/products/70-132-11-kids-size-mattress-f2504103",Accept,,5,5,N/A,N/A,5,5,4,11372.3,0.0003995,User confirmed this result met the requirements.
+T03,computer science,Zhangshiyue,EVAL-14,tissues,"1. Rivers Edge Pocket Tissue - Camo — USD 0.79 — https://thecabindepot.ca/products/camo-pocket-tissue
+2. Kleenex Original Pocket Tissues — USD 0.85 — https://www.mccabespharmacy.com/products/kleenex-original-pocket-tissues-4095056
+3. Add Your Logo: Goofy Guy Pocket Tissue — USD 0.89 — https://www.baudville.com/products/mini-tissue-packet-goofy-group
+4. Mini Pocket Tissue 18 PCS PKT — USD 1.0 — https://alnasser.net/products/3-ply-mini-pocket-tissue-18-pcs-pkt-1000842949
+5. Mini Pocket Tissue 18 PCS — USD 1.0 — https://alnasser.net/products/n-mini-pocket-tissue-18-pcs-pkt-tm003-30x-3-ply",Accept,,5,5,N/A,N/A,5,5,5,19806,0.0003995,User confirmed this result met the requirements.
+T03,computer science,Zhangshiyue,EVAL-15,running shoes,"1. Kiprun Kipride Women's Running Shoes — USD 140.0 — https://www.decathlon.com/products/kiprun-kipride-womens-running-shoes-copy
+2. Kiprun Kipride Men's Running Shoes — USD 140.0 — https://www.decathlon.com/products/kiprun-kipride-mens-running-shoes-380020
+3. Kiprun Kipride Max Women's Running Shoes — USD 160.0 — https://www.decathlon.com/products/kiprun-kipride-max-womens-running-shoes-362221",Reject,Recommendation links led to the store rather than the specific recommended products.,3,3,N/A,N/A,0,3,3,13244.93,0.00039975,User-reported Level 2 feedback; all returned product links were reported as non-specific.
+T04,engineering management,Wangtianyu,EVAL-16,blazer,"1. The Shadow Cruiser (Sequin Party Blazer) — USD 110.0 — https://checkout.chubbiesshorts.com/products/the-shadow-cruiser-sequin-party-blazer
+2. Vintage Butte Knit Striped Blazer — USD 636.0 — https://annasui.com/products/vintage-butte-knit-striped-blazer
+3. Oversized crepe blazer — USD 1095.0 — https://www.driesvannoten.com/products/261-010402-3210
+4. Embroidered blazer — USD 2950.0 — https://www.driesvannoten.com/products/261-020438-3055",Accept,,4,4,N/A,N/A,4,4,4,11995.49,0.0003995,User confirmed this result met the requirements.
+T04,engineering management,Wangtianyu,EVAL-17,microwave oven,"1. Kitchen Microwave Oven Rack Storage Double-Deck — PKR 50.0 — https://www.shopperspk.com/product/kitchen-microwave-oven-rack-storage-double-deck-table-oven-rack/
+2. Multi-Layer Vegetable Kitchen Microwave Oven Rack — PKR 135.0 — https://www.shopperspk.com/product/multi-layer-vegetable-kitchen-microwave-oven-rack-storage-shelf-rack/
+3. Sharp Microwave Oven — USD 259.0 — https://ansargallery.com/microwave-oven-sharp-20-liter-black-r-20ghm-bk3-qatar-4974019974668.html
+4. Geepas Microwave Oven 20 Ltr - GMO1895 — USD 279.75 — https://ansargallery.com/geepas-microwave-oven-20-ltr-gmo1895-qatar-6294010881351.html
+5. Sharp Microwave Oven 43 Liters with Grill - R78 — USD 599.0 — https://ansargallery.com/sharp-microwave-oven-43-ltr-with-grill-r78-btst-qatar-4974019185411.html",Accept,,5,5,N/A,N/A,5,5,5,9649.87,0.00039975,User confirmed this result met the requirements.
+T04,engineering management,Wangtianyu,EVAL-18,rice cooker,"1. Geepas Electric Rice Cooker - GRC4324 — USD 79.75 — https://ansargallery.com/geepas-electric-rice-cooker-grc4324-qatar-6294010886226.html
+2. Olsenmark Rice Cooker 3 in 1 - OMRC2350 — USD 86.75 — https://ansargallery.com/olsenmark-rice-cooker-3-in-1-omrc2350-qatar-6294016351247.html
+3. Geepas Electric Rice Cooker - GRC4325 — USD 89.75 — https://ansargallery.com/geepas-electric-rice-cooker-grc4325-qatar-6294010886233.html
+4. Geepas Rice Cooker 1.5L — USD 109.75 — https://ansargallery.com/geepas-rice-cooker-1-5l-qatar-6294015503999.html
+5. Geepas Rice Cooker 1.5 Ltr - GRC35011 — USD 119.75 — https://ansargallery.com/geepas-rice-cooker-1-5-ltr-grc35011-qatar-6294015507195.html",Accept,,5,5,N/A,N/A,5,5,5,10588.06,0.00039975,User confirmed this result met the requirements.
+T04,engineering management,Wangtianyu,EVAL-19,bedside table,"1. Delcie II Side Table — SGD 75.91 — https://www.fortytwo.sg/delcie-ii-side-table.html
+2. Reidar 0.45M Side Table — SGD 83.9 — https://www.fortytwo.sg/reidar-0-45m-side-table.html
+3. Kal Teak Wood Side Table — SGD 299.0 — https://www.fortytwo.sg/kal-teak-wood-side-table.html
+4. Meinrad Side Table — SGD 319.0 — https://www.fortytwo.sg/meinrad-side-table.html
+5. Province Bedside Table in Black — USD 1149.0 — https://www.wallacecotton.com/products/province-bedside-table-in-black",Accept,,5,5,N/A,N/A,5,5,5,9166.95,0.00039975,User confirmed this result met the requirements.
+T04,engineering management,Wangtianyu,EVAL-20,floor lamp,"1. Maribo Black Wooden Cone Floor Lamp - Black & — USD 111.0 — https://www.industville.co.uk/products/maribo-wooden-cone-floor-lamp-base-only-black-and-pewter
+2. Brown Stick Floor Lamp LWT706 — USD 355.0 — https://www.ebarza.com/products/stick-floor-lamp-lwt706
+3. Arbor Floor Lamp - OY-011869F(CA) — USD 405.0 — https://www.ebarza.com/products/floor-lamp-oy-011869fca
+4. Arbor Floor Lamp - OY-011869F(MU) — USD 405.0 — https://www.ebarza.com/products/floor-lamp-oy-011869fmu
+5. Arbor Floor Lamp - OY-011869F(LB) — USD 405.0 — https://www.ebarza.com/products/floor-lamp-oy-011869flb",Accept,,5,5,N/A,N/A,5,5,4,11549.45,0.00039975,User confirmed this result met the requirements.
+T05,business management,Puhongyu,EVAL-21,lunch box,"1. Portion Control Bento Lunch Box — USD 14.99 — https://netrition.com/products/portion-control-silicone-bento-lunch-box-storage-container-plate-by-bariatricpal-collapsible-and-leak-proof
+2. Insulated 410 Stainless Steel Lunch Box Leak Proof — PKR 25.0 — https://www.shopperspk.com/product/insulated-410-stainless-steel-lunch-box-leak-proof-microwaveable-portable-stackable-bento-box/
+3. Lunch Box 5L - Harvest Plum — USD 30.0 — https://www.dakine.com/products/lunch-box-5l-harvest-plum
+4. Lunch Box 5L - Whimsical Forest — USD 30.0 — https://www.dakine.com/products/lunch-box-5l-whimsical-forest
+5. Liam Blueberry Pink Lunch Box — USD 36.99 — https://globoshoes.com/products/liam-blueberry-pink-lunch-boxblueberry-pink",Accept,,5,5,N/A,N/A,5,5,3,14780.35,0.00039975,User confirmed this result met the requirements.
+T05,business management,Puhongyu,EVAL-22,baseball cap,"1. CHARMKING Cotton Hat Men Women Baseball Cap Dad — USD 15.99 — https://www.charmkingus.com/products/hats-cotton-hat-men-women-baseball-cap-dad-hat-adjustable-unconstructed-plain-cap
+2. Supplex® Nylon Baseball Cap with Fold Away Sun — USD 19.0 — https://setartrading.com/products/supplex-nylon-baseball-cap-with-fold-away-sun-shield-dpc-global-hats
+3. SBC2KI Homerun Cotton Thermoplastic Baseball Cap Style — USD 29.09 — https://www.envirosafetyproducts.com/products/honeywell-fibre-metal-sbc2ki-homerun-cotton-thermoplastic-baseball-cap-style-bump-cap-khaki-1-each
+4. DSEU - 2026 Disney Cruise Line Europe Baseball Cap — USD 51.0 — https://usshoppingsos.com/products/dseu-2026-disney-cruise-line-europe-baseball-cap-for-adults",Accept,,4,4,N/A,N/A,4,4,5,12993.81,0.00039975,User confirmed this result met the requirements.
+T05,business management,Puhongyu,EVAL-23,fishing rod,"1. VAMSII Fishing Lover — SGD 28.72 — https://www.amazon.sg/dp/B0FJXDVFWW?tag=buywhere-22&linkCode=ll
+2. Fishing Rod and Fishing Reel Combo Telescopic Rod Set — SGD 76.71 — https://www.amazon.sg/dp/B0F213NNTM?tag=buywhere-22&linkCode=ll
+3. Fishing Pole Combo Set — SGD 99.45 — https://www.amazon.sg/dp/B0793LTXYP?tag=buywhere-22&linkCode=ll
+4. Fishing Pole Combo — SGD 128.98 — https://www.amazon.sg/dp/B0CHK1H1SS?tag=buywhere-22&linkCode=ll
+5. Lamiglas GSB Surf Fishing Rods — USD 2010.0 — https://fishermansheadquarters.com/products/lamiglas-gsb-1-piece-surf-fishing-rods",Accept,,5,5,N/A,N/A,5,5,5,8326.02,0.00039975,User confirmed this result met the requirements.
+T05,business management,Puhongyu,EVAL-24,Bluetooth speaker,"1. UE Boom 3 Bluetooth Speaker Passive Radiator — USD 18.0 — https://www.joesge.com/products/ue-boom-3-bluetooth-speaker-passive-radiator-speaker-replacement-parts
+2. UE Boom 3 Bluetooth Speaker Volume Button PCB — USD 19.99 — https://www.joesge.com/products/ue-boom-3-bluetooth-speaker-volume-button-pcb-s-00176-parts
+3. Turtlebox Audio Waterproof Bluetooth Speaker Tie — USD 20.0 — https://discounttackle.com/products/turtlebox-audio-waterproof-bluetooth-speaker-tie-down-straps-2-pack
+4. Challenger Project - Bluetooth Speaker — USD 49.99 — https://www.cratejoy.com/products/challenger-project-bluetooth-speaker
+5. Logitech Z407 Bluetooth Computer Speakers with — SGD 164.0 — https://www.harveynorman.com.sg/computing/computer-accessories-and-peripherals/computer-speakers/logitech-z407-bluetooth-computer-speakers-with-subwoofer.html",Accept,,5,5,N/A,N/A,5,5,5,13299.57,0.00039975,User confirmed this result met the requirements.
+T05,business management,Puhongyu,EVAL-25,mechanical keyboard,"1. Mechanical Gaming Keyboard — SGD 34.81 — https://www.amazon.sg/dp/B0FBS2HYQP?tag=buywhere-22&linkCode=ll
+2. Rii Mechanical Gaming Keyboard — SGD 42.99 — https://www.amazon.sg/dp/B0CLCFHGKF?tag=buywhere-22&linkCode=ll
+3. surmen 65% Mechanical Gaming Keyboard — SGD 44.52 — https://www.amazon.sg/dp/B0D3L31BD1?tag=buywhere-22&linkCode=ll
+4. Basaltech Pink Keyboard — SGD 61.0 — https://www.amazon.sg/dp/B0821CDRXK?tag=buywhere-22&linkCode=ll
+5. WOBKEY Rainy 75 Pro RGB 75% ISO UK Mechanical — USD 107.5 — https://computerorbit.com/products/wobkey-rainy-75-pro-rgb-75-iso-uk-mechanical-keyboard",Accept,,5,5,N/A,N/A,5,5,5,13018.3,0.00039975,User confirmed this result met the requirements.
+T06,international economics and trade,Daniel,EVAL-26,wireless mouse,"1. Mouse Wireless — USD 10.0 — https://ansargallery.com/mouse-wireless-qatar-5401000024501.html
+2. Marvo Scorpion G964W Niro 60 White Wireless Gaming — USD 24.17 — https://computerorbit.com/products/marvo-scorpion-g964w-niro-60-white-wireless-gaming-mouse
+3. Slim EX Wireless Mouse — USD 29.99 — https://satechi.com/products/slim-ex-wireless-mouse
+4. Logitech Lift Vertical Ergonomic Wireless Mouse - — SGD 119.0 — https://www.harveynorman.com.sg/computing/computer-accessories-and-peripherals/logitech-lift-vertical-ergonomic-wireless-mouse-sand-910-007665.html
+5. Steelseries Aerox 5 18000 DPI Wireless Gaming — USD 162.99 — https://www.backtotheoffice.co.uk/products/steelseries-aerox-5-18000-dpi-wireless-gaming-mouse",Accept,,5,5,N/A,N/A,5,5,5,17717.28,0.00039975,User confirmed this result met the requirements.
+T06,international economics and trade,Daniel,EVAL-27,black socks,"1. Gymshark x CBUM Socks - Black — USD 15.0 — https://uk.checkout.gymshark.com/products/gymshark-gs-x-cbum-socks-socks-black-ss26
+2. Gymshark Running Elite Crew Single Sock - Black — USD 20.0 — https://uk.checkout.gymshark.com/products/gymshark-running-elite-crew-sock-single-socks-black-aw25
+3. Nike Everyday Cushioned Low Cut 3 Pack Socks - — USD 22.0 — https://www.merchantoftennis.com/products/nike-everyday-cushioned-low-cut-3-pack-socks-black
+4. Reigning Champ 3-Pack Crew Classic Sock Black — USD 141.0 — https://www.sourceboards.com/products/reigning-champ-3-pack-crew-classic-sock-black",Accept,,4,4,N/A,N/A,4,4,5,12554.6,0.00039975,User confirmed this result met the requirements.
+T06,international economics and trade,Daniel,EVAL-28,Calculator,"1. Casio SL 300A N Personal Calculator — SGD 16.21 — https://www.amazon.sg/dp/B000UZRNGY?tag=buywhere-22&linkCode=ll
+2. Casio Scientific Calculator FX-82MS-2-W 2nd — USD 17.99 — https://watchesandcrystals.com/products/casio-scientific-calculator-fx-82ms-2-w-2nd-edition-2-line-display
+3. Casio Scientific Calculator FX-82ESPLUS-2 2nd — USD 19.99 — https://watchesandcrystals.com/products/casio-scientific-calculator-fx-82esplus-2-2nd-edition-natural-display
+4. Casio Scientific Calculator FX-95ES Plus 2nd — USD 19.99 — https://watchesandcrystals.com/products/casio-scientific-calculator-fx-95es-plus-2nd-edition-natural-textbook-display
+5. Casio Scientific Calculator FX-570MS-2-W 2nd — USD 23.99 — https://watchesandcrystals.com/products/casio-scientific-calculator-fx-570ms-2-w-2nd-edition-2-line-display",Accept,,5,5,N/A,N/A,5,5,5,19384.92,0.0003995,User confirmed this result met the requirements.
+T06,international economics and trade,Daniel,EVAL-29,eraser,"1. Big Pink Erasers — USD 0.69 — https://constructiveplaythings.com/products/big-pink-erasers-with-cap-erasers-set-of-8
+2. Pentel CLIC ERASER Retractable Eraser - Violet — USD 2.49 — https://opusartsupplies.com/products/pentel-clic-eraser-retractable-eraser-violet-barrel
+3. GM310 Gundam Marker Eraser Pen Twin Type — USD 4.99 — https://doublestarhobby.com/products/gm310-gundam-marker-eraser-pen-twin-type
+4. Premium Rust Eraser | Dalstrong © — USD 19.0 — https://dalstrong.com/products/rust-eraser-dalstrong",Accept,,4,4,N/A,N/A,4,4,4,14491.86,0.00039975,User confirmed this result met the requirements.
+T06,international economics and trade,Daniel,EVAL-30,pencil,"1. Wooden Pencil (2pcs) — USD 1.5 — https://muji.com.au/products/wooden-pencil-nbd25a1a
+2. Pencil with Mini Notebook Topper - Set — USD 2.99 — https://constructiveplaythings.com/products/pencil-with-mini-notebook-topper-set-of-3
+3. RUBY KISS BY KISS EYEBROW WOODEN PENCIL — USD 4.99 — https://bswbeautyca.com/products/i-envy-by-kiss-eyebrow-wooden-pencil
+4. Faber-Castell Watersoluble Graphite Pencils - Set — USD 12.95 — https://journeyartstuff.com/products/faber-castell-watersoluble-graphite-pencils-set-of-5
+5. Pen+Gear 5-Compartments Wooden Pencil Tower — USD 13.97 — https://www.pzdeals.com/products/pen-gear-5-compartments-wooden-pencil-tower",Accept,,5,5,N/A,N/A,5,5,3,17763.2,0.0003995,User confirmed this result met the requirements.
